@@ -199,6 +199,9 @@ body {
   padding: 70px 0;
   display: flex;
   align-items: center;
+  /* flex-wrap: wrap; */
+  /* align-items: flex-end;
+      justify-content: space-between;*/
 }
 .foter-ico {
   margin-right: 65px;
@@ -206,7 +209,9 @@ body {
 .footer-second-link {
   margin-left: 36px;
 }
-
+/* .footer-last-link {
+      margin-right: 101px;
+    } */
 .footer-link {
   margin-right: 46px;
   text-decoration: none;
@@ -222,7 +227,9 @@ body {
 .btn0 {
   width: 359px;
   height: 74px;
-  background: transparent;
+  padding-right: 50px;
+  background: transparent url(../assets/images/white-right-arrow.png) no-repeat
+    top 24px left 290px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 5px;
@@ -231,6 +238,12 @@ body {
   font-size: 18px;
   line-height: 22px;
   text-transform: uppercase;
+}
+.btn0:hover,
+.btn0:active,
+.btn0:focus {
+  background: #00a092 url(../assets/images/white-right-arrow.png) no-repeat top
+    24px left 290px;
 }
 .footer-line {
   width: 1400px;
@@ -261,4 +274,21 @@ body {
 }
 .fot-ico:last-child {
   margin-right: 0;
+}
+[data-tooltip]:hover::after {
+  /* position: absolute; */
+  margin-top: 20px;
+  color: #fff;
+  content: attr(data-tooltip);
+  /* Выводим текст */
+}
+.foter-li:hover,
+.foter-li:focus,
+.foter-li:active {
+  opacity: 0.7;
+}
+.fot-ico:hover,
+.fot-ico:focus,
+.fot-ico:active {
+  opacity: 0.7;
 }
