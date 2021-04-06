@@ -203,7 +203,9 @@ input[type="number"]::placeholder {
 .intro-submit:hover,
 .intro-submit:active,
 .intro-submit:focus {
-  background: #d26004;
+  background: #d26004 url(assets/images/panda-info-union-white.png) no-repeat
+    top 20px right 20px;
+
   /* color: #f58021;
   background: #fff url(../assets/images/panda-info-union.png) no-repeat top 20px
     right 20px; */
@@ -368,20 +370,20 @@ input[type="number"]::placeholder {
   border: 1px solid #20113d;
   box-sizing: border-box;
   border-radius: 5px;
-  background: url(../assets/images/black-left-arrow.png) no-repeat top 19px left
+  background: url(assets/images/black-left-arrow.png) no-repeat top 19px left
     16px;
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 .btn-left:active,
 .btn-left:focus,
 .btn-left:hover {
-  background: #20113d url(../assets/images/white-left-arrow.png) no-repeat top
-    19px left 16px;
+  background: #20113d url(assets/images/white-left-arrow.png) no-repeat top 19px
+    left 16px;
 }
 .btn-right:active,
 .btn-right:focus,
 .btn-right:hover {
-  background: #20113d url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #20113d url(assets/images/white-right-arrow.png) no-repeat top
     19px left 16px;
 }
 
@@ -393,8 +395,8 @@ input[type="number"]::placeholder {
   border: 1px solid #20113d;
   box-sizing: border-box;
   border-radius: 5px;
-  background: url(../assets/images/black-right-arrow.png) no-repeat top 19px
-    left 16px;
+  background: url(assets/images/black-right-arrow.png) no-repeat top 19px left
+    16px;
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 .top__cards {
@@ -458,8 +460,8 @@ input[type="number"]::placeholder {
   width: 240px;
   height: 73px;
   padding-right: 40px;
-  background: #20113d url(../assets/images/org-right-arrow.png) no-repeat top
-    20px left 186px;
+  background: #20113d url(assets/images/org-right-arrow.png) no-repeat top 20px
+    left 186px;
   border-radius: 5.32727px;
   font-weight: 600;
   font-size: 18px;
@@ -471,7 +473,7 @@ input[type="number"]::placeholder {
 .top__card-button:focus,
 .top__card-button:hover,
 .top__card-button:active {
-  background: #f58021 url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #f58021 url(assets/images/white-right-arrow.png) no-repeat top
     20px left 186px;
   color: #fff;
 }
@@ -484,8 +486,8 @@ input[type="number"]::placeholder {
   width: 359px;
   height: 74px;
   padding-right: 30px;
-  background: #fff url(../assets/images/black-right-arrow.png) no-repeat top
-    24px left 300px;
+  background: #fff url(assets/images/black-right-arrow.png) no-repeat top 24px
+    left 300px;
   border: 1px solid #20113d;
   box-sizing: border-box;
   border-radius: 5px;
@@ -501,7 +503,7 @@ input[type="number"]::placeholder {
 .top__button:focus,
 .top__button:active {
   color: #fff;
-  background: #20113d url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #20113d url(assets/images/white-right-arrow.png) no-repeat top
     24px left 300px;
 }
 /* style top card end */
@@ -582,7 +584,7 @@ input[type="number"]::placeholder {
   height: 74px;
   color: #ffffff;
   padding-right: 46px;
-  background: #f58021 url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #f58021 url(assets/images/white-right-arrow.png) no-repeat top
     24px left 176px;
   border-radius: 5px;
   font-weight: 600;
@@ -595,7 +597,7 @@ input[type="number"]::placeholder {
 .btn-pay:hover,
 .btn-pay:focus,
 .btn-pay:active {
-  background: #d26004 url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #d26004 url(assets/images/white-right-arrow.png) no-repeat top
     24px left 176px;
   box-shadow: 0px 4px 30px rgba(245, 128, 33, 0.3);
 }
@@ -704,8 +706,8 @@ input[type="number"]::placeholder {
   box-sizing: border-box;
   border-radius: 5px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: Transparent url(../assets/images/white-right-arrow.png) no-repeat
-    top 19px left 16px;
+  background: Transparent url(assets/images/white-right-arrow.png) no-repeat top
+    19px left 16px;
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
@@ -717,20 +719,20 @@ input[type="number"]::placeholder {
   box-sizing: border-box;
   border-radius: 5px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: Transparent url(../assets/images/white-left-arrow.png) no-repeat
-    top 19px left 16px;
+  background: Transparent url(assets/images/white-left-arrow.png) no-repeat top
+    19px left 16px;
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 .user-left:active,
 .user-left:hover,
 .user-left:focus {
-  background: #fff url(../assets/images/black-right-arrow.png) no-repeat top
-    19px left 16px;
+  background: #fff url(assets/images/black-right-arrow.png) no-repeat top 19px
+    left 16px;
 }
 .user-right:active,
 .user-right:focus,
 .user-right:hover {
-  background: #fff url(../assets/images/black-left-arrow.png) no-repeat top 19px
+  background: #fff url(assets/images/black-left-arrow.png) no-repeat top 19px
     left 16px;
 }
 
@@ -747,13 +749,13 @@ input[type="number"]::placeholder {
   line-height: 22px;
   text-transform: uppercase;
   color: #ffffff;
-  background: Transparent url(../assets/images/white-right-arrow.png) no-repeat
-    top 24px right 77px;
+  background: Transparent url(assets/images/white-right-arrow.png) no-repeat top
+    24px right 77px;
 }
 .coment-button:hover,
 .coment-button:focus,
 .coment-button:active {
-  background: #00a092 url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #00a092 url(assets/images/white-right-arrow.png) no-repeat top
     24px right 77px;
 }
 /* style comments end */
@@ -822,8 +824,8 @@ input[type="number"]::placeholder {
   padding-right: 50px;
   width: 142px;
   height: 74px;
-  background: transparent url(../assets/images/btn-orange-right.png) no-repeat
-    top 24px left 80px;
+  background: transparent url(assets/images/btn-orange-right.png) no-repeat top
+    24px left 80px;
   border: 1px solid #20113d;
   box-sizing: border-box;
   border-radius: 5px;
@@ -842,7 +844,7 @@ input[type="number"]::placeholder {
 .animal__button:focus {
   color: #fff;
   /* background-color: #f58021; */
-  background: #f58021 url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #f58021 url(assets/images/white-right-arrow.png) no-repeat top
     24px left 80px;
 }
 .animal-second__block {
@@ -891,8 +893,8 @@ input[type="number"]::placeholder {
   width: 359px;
   height: 74px;
   padding-right: 50px;
-  background: transparent url(../assets/images/white-right-arrow.png) no-repeat
-    top 24px left 290px;
+  background: transparent url(assets/images/white-right-arrow.png) no-repeat top
+    24px left 290px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 5px;
@@ -905,7 +907,7 @@ input[type="number"]::placeholder {
 .btn0:hover,
 .btn0:active,
 .btn0:focus {
-  background: #00a092 url(../assets/images/white-right-arrow.png) no-repeat top
+  background: #00a092 url(assets/images/white-right-arrow.png) no-repeat top
     24px left 290px;
 }
 .footer-line {
