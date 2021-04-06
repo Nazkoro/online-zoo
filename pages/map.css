@@ -1,0 +1,370 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../assets/fonts/montserrat-v15-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../assets/fonts/montserrat-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../assets/fonts/montserrat-v15-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../assets/fonts/montserrat-v15-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../assets/fonts/montserrat-v15-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../assets/fonts/montserrat-v15-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""),
+    url("../assets/fonts/montserrat-v15-latin-800.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../assets/fonts/montserrat-v15-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+  position: relative;
+}
+.wrapper {
+  max-width: 1406px;
+  margin: 0 auto;
+}
+.header {
+  background: #f58021;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  margin-bottom: 40px;
+}
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__item {
+  margin-right: 48.25px;
+}
+.header__item:last-child {
+  margin-right: 67px;
+}
+
+.header__ico-item {
+  margin-right: 30px;
+}
+.header__ico-item:hover,
+.header__ico-item:focus,
+.header__ico-item:active {
+  opacity: 0.7;
+}
+
+.header__ico-item:last-child {
+  margin-right: 0;
+}
+.header__logo {
+  width: 96px;
+  height: 50px;
+}
+.header__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #000000;
+}
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  color: #00a092;
+}
+
+.map-content {
+  margin-top: 40px;
+  margin: 0 auto;
+  width: 601px;
+  height: 131px;
+  margin-bottom: 70px;
+}
+.map {
+  background: url(../assets/icons/Map.svg);
+  width: 1406px;
+  height: 912px;
+  position: relative;
+  margin-bottom: 150px;
+}
+.map-title {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #20113d;
+}
+.white-tag-eagle {
+  position: absolute;
+  left: 166px;
+
+  top: 398px;
+
+  /* z-index: 1000;
+  /* background: orange; */
+  /* box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);  */
+}
+.orange-tag-gorila {
+  position: absolute;
+  top: 487.56px;
+
+  left: 699.3px;
+}
+.orange-tag-panda {
+  position: absolute;
+  top: 360px;
+
+  left: 959px;
+}
+.orange-tag-lemur {
+  position: absolute;
+  top: 607px;
+
+  left: 802px;
+}
+.orange-tag-aligator {
+  position: absolute;
+  top: 417px;
+  left: 298px;
+}
+.orange-tag-lion {
+  position: absolute;
+  top: 464px;
+  left: 583px;
+}
+.orange-tag-tiger {
+  position: absolute;
+  top: 518px;
+  left: 1022px;
+}
+.orange-tag-coala {
+  position: absolute;
+  top: 632px;
+  left: 1153px;
+}
+.gorila {
+  position: absolute;
+  top: 495.56px;
+  width: 54.86px;
+  height: 46.7px;
+
+  left: 710.3px;
+}
+.Lemur {
+  position: absolute;
+  top: 625px;
+
+  left: 825px;
+  height: 56px;
+  width: 33px;
+}
+.panda {
+  position: absolute;
+  top: 370px;
+  width: 58px;
+  height: 43.6px;
+  left: 970px;
+}
+.eagle {
+  position: absolute;
+  left: 213px;
+  top: 440px;
+  width: 48px;
+  height: 46.7px;
+}
+.aligator {
+  position: absolute;
+  left: 310px;
+  top: 431px;
+  width: 57.7px;
+  height: 46.7px;
+}
+.Lion {
+  position: absolute;
+  left: 597px;
+  top: 480px;
+  width: 52px;
+  height: 46.7px;
+}
+.tiger {
+  position: absolute;
+  left: 1031px;
+  top: 530px;
+  width: 59.8px;
+  height: 46.7px;
+}
+.Coala {
+  position: absolute;
+  left: 1171px;
+  top: 645px;
+  width: 42.6px;
+  height: 53.9px;
+}
+
+/* [data-tooltip] {
+  position: relative;
+} */
+[data-tooltip]::after {
+  content: attr(data-tooltip); /* Выводим текст */
+  position: absolute;
+  width: 300px; /* Ширина подсказки */
+
+  top: 400px;
+  left: 400px;
+  background: #3989c9; /* Синий цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: 1s; /* Время появления подсказки */
+}
+[data-tooltip]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+}
+
+.footer {
+  background: #20113d;
+}
+.foter-ul {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* align-items: flex-end;
+  justify-content: space-between;*/
+}
+.foter-ico {
+  margin-right: 65px;
+}
+.footer-second-link {
+  margin-left: 36px;
+}
+/* .footer-last-link {
+  margin-right: 101px;
+} */
+.footer-link {
+  margin-right: 46px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.foter-btn {
+  margin-left: 50px;
+}
+.btn0 {
+  width: 359px;
+  height: 74px;
+  padding-right: 50px;
+  background: transparent url(../assets/images/white-right-arrow.png) no-repeat
+    top 24px left 290px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.btn0:hover,
+.btn0:active,
+.btn0:focus {
+  background: #00a092 url(../assets/images/white-right-arrow.png) no-repeat top
+    24px left 290px;
+}
+.footer-line {
+  width: 1400px;
+  height: 0px;
+  border: 1px solid #ffffff;
+}
+.footer-last__block {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desc {
+  display: flex;
+}
+.foter-icon {
+  margin-right: 0px;
+  display: flex;
+}
+.p-desc {
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-right: 50px;
+}
+.fot-ico {
+  margin-right: 40px;
+}
+.fot-ico:last-child {
+  margin-right: 0;
+}
+[data-tooltip]:hover::after {
+  /* position: absolute; */
+  margin-top: 20px;
+  color: #fff;
+  content: attr(data-tooltip);
+  /* Выводим текст */
+}
+.foter-li:hover,
+.foter-li:focus,
+.foter-li:active {
+  opacity: 0.7;
+}
+.fot-ico:hover,
+.fot-ico:focus,
+.fot-ico:active {
+  opacity: 0.7;
+}
