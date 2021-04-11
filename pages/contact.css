@@ -139,12 +139,24 @@ body {
 .second-get-block {
   margin-bottom: 150px;
 }
+
+.second-get-block input[type="text"],
+.second-get-block input[type="email"] {
+  padding: 16px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
 .get-form-inf {
   height: 27px;
   font-size: 18px;
   line-height: 150%;
   margin-bottom: 10px;
   /* color: #00A092; */
+}
+.get-form-inf::before {
+  margin: 0 5px 0 0;
+  content: "*";
+  color: #00a092;
 }
 .inp-inf {
   width: 680px;
@@ -161,6 +173,7 @@ body {
   box-sizing: border-box;
   border-radius: 5px;
   margin-bottom: 67px;
+  padding: 16px 20px;
 }
 .get-submit {
   display: flex;
@@ -168,7 +181,7 @@ body {
   /* justify-content: center; */
   padding-left: 87px;
   align-items: center;
-
+  border: none;
   position: absolute;
   width: 359px;
   height: 74px;

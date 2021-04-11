@@ -137,18 +137,21 @@ body {
 .header__link:active {
   color: #00a092;
 }
-/* .main {
-    margin-top: 0;
-    display: flex;
-  } */
+
+.wprapper-cam {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
 .sidebar {
   display: grid;
   grid-template-rows: 80px 171px 172px 171px 172px 80px;
   width: 220px;
   height: 846px;
   background: #fff;
-  position: fixed;
+  position: sticky;
   grid-gap: 1px;
+  top: 0;
   /* margin-top: 0 px; */
 }
 
@@ -298,6 +301,7 @@ body {
 .btn-pay:active {
   background: #d26004;
 }
+
 .live-cams {
   height: 1497px;
 }
@@ -536,6 +540,7 @@ body {
   margin-left: 239px;
   font-weight: 600;
   font-size: 18px;
+  border: none;
   line-height: 22px;
   text-transform: uppercase;
   background: transparent;

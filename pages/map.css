@@ -144,48 +144,83 @@ body {
   left: 166px;
 
   top: 398px;
+  transition: 0.4s;
 
   /* z-index: 1000;
   /* background: orange; */
   /* box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);  */
 }
+.map-eagle {
+  position: relative;
+}
+/* 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  margin-top: 100px;
+  visibility: visible;
+} */
+
 .orange-tag-gorila {
   position: absolute;
   top: 487.56px;
-
   left: 699.3px;
+  filter: none;
+  transition: 0.4s;
+}
+.interactive:hover {
+  transform: scale(1.2);
+  /* filter: invert(90%); */
+  filter: brightness(0) invert(1);
 }
 .orange-tag-panda {
   position: absolute;
   top: 360px;
 
   left: 959px;
+  transition: 0.4s;
 }
 .orange-tag-lemur {
   position: absolute;
   top: 607px;
 
   left: 802px;
+  transition: 0.4s;
 }
 .orange-tag-aligator {
   position: absolute;
   top: 417px;
   left: 298px;
+  transition: 0.4s;
 }
 .orange-tag-lion {
   position: absolute;
   top: 464px;
   left: 583px;
+  transition: 0.4s;
 }
 .orange-tag-tiger {
   position: absolute;
   top: 518px;
   left: 1022px;
+  transition: 0.4s;
 }
 .orange-tag-coala {
   position: absolute;
   top: 632px;
   left: 1153px;
+  transition: 0.4s;
 }
 .gorila {
   position: absolute;
@@ -267,6 +302,14 @@ body {
 [data-tooltip]:hover::after {
   opacity: 1; /* Показываем подсказку */
 }
+/* 
+[data-tooltip]:hover::after {
+
+  margin-top: 20px;
+  color: #fff;
+  content: attr(data-tooltip);
+ 
+} */
 
 .footer {
   background: #20113d;
